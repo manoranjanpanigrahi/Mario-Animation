@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.sky .road .grass {
+  position: relative;
+}
+.sky {
+  height: 35vh;
+  background-color: skyblue;
+}
+.grass {
+  height: 25vh;
+  background-color: green;
+}
+.road {
+  height: 40vh;
+  background-color: grey;
+}
+
+.dashed {
+  position: absolute;
+  border: 5px dashed #fff;
+  width: 100vw;
+  top: 75%;
+}
+.mario {
+  position: absolute;
+  height: 100px;
+  left: -200px;
+  animation: drive 7s 1s infinite forwards linear;
+}
+.luigi {
+  position: absolute;
+  height: 100px;
+  top: 80%;
+  left: -200px;
+  animation: drive 6s 2s infinite forwards linear;
+}
+.cloud1 {
+  width: 350px;
+  animation: cloud 30s infinite linear;
+}
+.cloud2 {
+  opacity: 0.75;
+  animation: cloud 35s infinite linear;
+}
+.cloud3 {
+  width: 300px;
+  opacity: 0.85;
+  animation: cloud 30s infinite linear reverse;
+}
+.cloud4 {
+  width: 350px;
+  animation: cloud 20s infinite linear reverse;
+  left: 0;
+}
+
+@keyframes drive {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(1700px);
+  }
+}
+@keyframes cloud {
+  from {
+    transform: translateX(-1000px);
+  }
+  to {
+    transform: translate(2400px);
+  }
+}

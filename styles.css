@@ -76,11 +76,14 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    height: 100vh;
-  }
   .dashed {
     top: 78%;
+  }
+  .grass{
+    height: 20vh;
+  }
+  .road{
+    height: 45vh;
   }
   .cloud1,
   .cloud2,
@@ -89,7 +92,7 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    width: 250px;
+    width: 280px;
   }
   .mario,
   .luigi {
@@ -97,7 +100,7 @@ body {
     height: auto;
   }
   .mario {
-    top: 62%;
+    top: 60%;
     animation: drive 8s linear infinite;
   }
   .luigi {

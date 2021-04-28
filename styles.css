@@ -76,6 +76,9 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  body{
+    overflow: hidden;
+  }
   .dashed {
     top: 78%;
   }

@@ -74,3 +74,49 @@ body {
     transform: translate(2400px);
   }
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    height: 100vh;
+  }
+  .dashed {
+    top: 78%;
+  }
+  .cloud1,
+  .cloud2,
+  .cloud3,
+  .cloud4 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+  }
+  .mario,
+  .luigi {
+    width: 80px;
+    height: auto;
+  }
+  .mario {
+    top: 62%;
+    animation: drive 8s linear infinite;
+  }
+  .luigi {
+    top: 82%;
+  }
+  @keyframes drive {
+    from {
+      transform: translateX(-50px);
+    }
+    to {
+      transform: translateX(700px);
+    }
+  }
+  @keyframes cloud {
+    from {
+      transform: translateX(-200px);
+    }
+    to {
+      transform: translate(800px);
+    }
+  }
+}

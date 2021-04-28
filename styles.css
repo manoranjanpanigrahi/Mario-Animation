@@ -24,7 +24,7 @@ body {
   position: absolute;
   border: 5px dashed #fff;
   width: 100vw;
-  top: 75%;
+  top: 78%;
 }
 .mario {
   position: absolute;
@@ -41,20 +41,20 @@ body {
 }
 .cloud1 {
   width: 350px;
-  animation: cloud 28s infinite linear;
+  animation: cloud 29s infinite linear;
 }
 .cloud2 {
   opacity: 0.75;
-  animation: cloud 33s infinite linear;
+  animation: cloud 34s infinite linear;
 }
 .cloud3 {
   width: 300px;
   opacity: 0.85;
-  animation: cloud 28s infinite linear reverse;
+  animation: cloud 29s infinite linear reverse;
 }
 .cloud4 {
   width: 350px;
-  animation: cloud 18s infinite linear reverse;
+  animation: cloud 19s infinite linear reverse;
   left: 0;
 }
 
@@ -75,7 +75,7 @@ body {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 380px) {  
   body{
     overflow: hidden;
     height: 100vh;

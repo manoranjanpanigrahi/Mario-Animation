@@ -41,20 +41,20 @@ body {
 }
 .cloud1 {
   width: 350px;
-  animation: cloud 30s infinite linear;
+  animation: cloud 28s infinite linear;
 }
 .cloud2 {
   opacity: 0.75;
-  animation: cloud 35s infinite linear;
+  animation: cloud 33s infinite linear;
 }
 .cloud3 {
   width: 300px;
   opacity: 0.85;
-  animation: cloud 30s infinite linear reverse;
+  animation: cloud 28s infinite linear reverse;
 }
 .cloud4 {
   width: 350px;
-  animation: cloud 20s infinite linear reverse;
+  animation: cloud 18s infinite linear reverse;
   left: 0;
 }
 
